@@ -18,3 +18,14 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
+
+# create start menu shortcut
+# https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut
+$startMenuDirectory = (Join-Path -Path $env:AppData -ChildPath "Microsoft\Windows\Start Menu\Programs")
+$shortcutArgs = @{
+  shortcutFilePath = (Join-Path -Path $startMenuDirectory -ChildPath 'LiteXL.lnk')
+  targetPath       = (Join-Path -Path $toolsDir -ChildPath 'lite-xl\lite.exe')
+  workingDirectory = $env:USERPROFILE
+}
+
+Install-ChocolateyShortcut @shortcutArgs
