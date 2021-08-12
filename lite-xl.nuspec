@@ -5,6 +5,7 @@
     <version>1.16.12</version>
     <packageSourceUrl>https://github.com/CtrlC-Root/choco-lite-xl</packageSourceUrl>
     <owners>CtrlC-Root</owners>
+    <authors>Lite XL Developers</authors>
 
     <title>Lite XL</title>
     <projectUrl>https://lite-xl.github.io/</projectUrl>
