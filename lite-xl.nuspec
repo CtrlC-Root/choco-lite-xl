@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lite-xl</id>
+    <version>1.16.12</version>
+    <packageSourceUrl>https://github.com/CtrlC-Root/choco-lite-xl</packageSourceUrl>
+    <owners>CtrlC-Root</owners>
+
+    <title>Lite XL</title>
+    <projectUrl>https://lite-xl.github.io/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/lite-xl/lite-xl/master/resources/icons/lite-xl.svg</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/lite-xl/lite-xl/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/lite-xl/lite-xl</projectSourceUrl>
+    <docsUrl>https://lite-xl.github.io/en/usage</docsUrl>
+    <bugTrackerUrl>https://github.com/lite-xl/lite-xl/issues</bugTrackerUrl>
+    <tags>text editor notepad development</tags>
+    <summary>A lightweight text editor written in Lua</summary>
+    <description>A lightweight text editor written in Lua, adapted from lite.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
