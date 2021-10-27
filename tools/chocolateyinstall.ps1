@@ -8,12 +8,12 @@ $packageArgs = @{
   unzipLocation   = $toolsDir
   specificFolder  = 'lite-xl'
 
-  url             = 'https://github.com/lite-xl/lite-xl/releases/download/v1.16.12/lite-xl-win-x86.zip'
-  checksum        = '20066333E2C738FA8A1FF879424AD729D4BC80046CCC75281158B5C52E8FF0EE'
+  url             = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86.zip'
+  checksum        = '3F0E62793120C29C71D5B3D5F5B394FC9D897CE7CB3A99D5B54E028E14A879F0'
   checksumType    = 'sha256'
 
-  url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v1.16.12/lite-xl-win-x86-64.zip'
-  checksum64      = '999163551227129EE913B25DA5B7136EB4761EFD6B02689C5440E7675ED4C813'
+  url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86_64.zip'
+  checksum64      = 'D76FB97760C06A75C433734D68A0FB5970C4A148ACFB66648F0943D4A0A95471'
   checksumType64  = 'sha256'
 }
 
