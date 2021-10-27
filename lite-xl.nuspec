@@ -13,7 +13,7 @@
     <licenseUrl>https://raw.githubusercontent.com/lite-xl/lite-xl/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/lite-xl/lite-xl</projectSourceUrl>
-    <docsUrl>https://lite-xl.github.io/en/usage</docsUrl>
+    <docsUrl>https://lite-xl.github.io/en/documentation/usage/</docsUrl>
     <bugTrackerUrl>https://github.com/lite-xl/lite-xl/issues</bugTrackerUrl>
     <tags>text editor notepad development</tags>
     <summary>A lightweight text editor written in Lua</summary>
