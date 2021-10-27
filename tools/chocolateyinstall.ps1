@@ -24,7 +24,7 @@ Install-ChocolateyZipPackage @packageArgs
 $startMenuDirectory = (Join-Path -Path $env:AppData -ChildPath "Microsoft\Windows\Start Menu\Programs")
 $shortcutArgs = @{
   shortcutFilePath = (Join-Path -Path $startMenuDirectory -ChildPath 'LiteXL.lnk')
-  targetPath       = (Join-Path -Path $toolsDir -ChildPath 'lite-xl\lite.exe')
+  targetPath       = (Join-Path -Path $toolsDir -ChildPath 'lite-xl\lite-xl.exe')
   workingDirectory = $env:USERPROFILE
 }
 
