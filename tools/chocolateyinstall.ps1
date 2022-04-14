@@ -13,7 +13,7 @@ $packageArgs = @{
   checksumType    = 'sha256'
 
   url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86_64.zip'
-  checksum64      = 'BD59BBC9B136D39BB086A1EBDEE80ED885CE851CD69AD9F1F62C0A4937A41FAB'
+  checksum64      = 'D76FB97760C06A75C433734D68A0FB5970C4A148ACFB66648F0943D4A0A95471'
   checksumType64  = 'sha256'
 }
 
