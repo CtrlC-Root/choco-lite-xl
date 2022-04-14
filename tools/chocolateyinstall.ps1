@@ -9,11 +9,11 @@ $packageArgs = @{
   specificFolder  = 'lite-xl'
 
   url             = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86.zip'
-  checksum        = '3F0E62793120C29C71D5B3D5F5B394FC9D897CE7CB3A99D5B54E028E14A879F0'
+  checksum        = '4587FE52B1B4E8A181F41B694F17867C265D31BC938D0C1C151883C985C48511'
   checksumType    = 'sha256'
 
   url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86_64.zip'
-  checksum64      = 'D76FB97760C06A75C433734D68A0FB5970C4A148ACFB66648F0943D4A0A95471'
+  checksum64      = 'BD59BBC9B136D39BB086A1EBDEE80ED885CE851CD69AD9F1F62C0A4937A41FAB'
   checksumType64  = 'sha256'
 }
 
