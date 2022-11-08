@@ -8,12 +8,16 @@ $packageArgs = @{
   unzipLocation   = $toolsDir
   specificFolder  = 'lite-xl'
 
-  url             = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-windows-x86.zip'
-  checksum        = '4587FE52B1B4E8A181F41B694F17867C265D31BC938D0C1C151883C985C48511'
+##  url             = 'https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-i686.zip'
+##  checksum        = '6cff99fe707e3be4832de1584b2a44183b6039502f1ec815b87bc78a347fc5bf'
+  url             = 'https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-windows-i686.zip'
+  checksum        = '52a3ec5f7bca5b2eb3ba8607a47600a8bacd297be8bd611ab8268976884c1323'
   checksumType    = 'sha256'
 
-  url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.0.5/lite-xl-windows-x86_64.zip'
-  checksum64      = '383005F6E45B102FDAE6F6C0F1468CAB916EDED09AA6C548FB0EB07E94613044'
+##  url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-windows-x86_64.zip'
+##  checksum64      = 'c9ecc452bdd24c2596532bb1034b1a340d30da7243c5ecb921e731470a02b803'
+  url64bit        = 'https://github.com/lite-xl/lite-xl/releases/download/v2.1.0/lite-xl-v2.1.0-addons-windows-x86_64.zip'
+  checksum64      = '294a482858a68e8ca4cc332f488f693509b176ab2829e63aaf3b82cc74d4fc90'
   checksumType64  = 'sha256'
 }
 
